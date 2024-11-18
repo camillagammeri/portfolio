@@ -1,18 +1,19 @@
 header {
   height: fill;
   width: fit-content;
+  min-width: 298px;
   position: fixed;
   z-index: 1;
   top: 20px;
   left: 16px;
   bottom: 20px;
-  background-color: #161619;
+  background-color: var(--neutral-800);
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   border-radius: 24px;
   border-style: solid;
   border-width: 1px;
-  border-color: #2D2D30;
+  border-color: var(--neutral-700);
   padding: 32px 24px;
 }
 
@@ -30,19 +31,19 @@ header {
   border-radius: 100px;
   border-style: solid;
   border-width: 1px;
-  border-color: #ECECEC;
+  border-color: var(--neutral-000);
   cursor: pointer;
   margin-right: 20px;
 }
 
 .sidenav-title-text h1 {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-size: 20px;
   font-weight: 600;
 }
 
 .sidenav-title-text p {
-  color: #90969C;
+  color: var(--neutral-600);
   font-size: 16px
 }
 
@@ -53,7 +54,7 @@ ul {
 .sidenav-1 {
   display: block;
   padding-bottom: 32px;
-  border-bottom: 1px solid #2D2D30;
+  border-bottom: 1px solid var(--neutral-700);
 }
 
 .sidenav-2 {
@@ -68,15 +69,15 @@ header a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
-  color: #ECECEC;
+  color: var(--neutral-000);
   display: flex;
   align-items: center;
   padding: 12px 8px 12px 12px;
 }
 
 header a:hover {
-  color: #ECECEC;
-  background-color: #2D2D33;
+  color: var(--neutral-000);
+  background-color: var(--neutral-700);
   border-radius: 12px;
 }
 
@@ -90,15 +91,15 @@ li a .right-icon {
 }
 
 .btn-active {
-  background-color: #ECECEC;
-  color: #111114;
+  background-color: var(--neutral-000);
+  color: var(--neutral-900);
   border-radius: 12px;
   font-weight: 500;
 }
 
 .btn-active:hover {
-  background-color: #C0C0C1;
-  color: #111114;
+  background-color: var(--neutral-300);
+  color: var(--neutral-900);
   border-radius: 12px;
   font-weight: 500;
 }

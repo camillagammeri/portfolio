@@ -7,8 +7,17 @@
 @import url("sections/sidenav.css");
 @import url("sections/footer.css");
 @import url("sections/contact.css");
-@import url("sections/success.css");
-@import url("sections/index-hero.css");
-@import url("sections/index-work.css");
-@import url("sections/about-hero.css");
-@import url("sections/about-description.css");
+
+
+:root {
+
+/* COLOR PALETTE */
+
+--neutral-000: #ECECEC;
+--neutral-900: #111114;
+--neutral-800: #161619;
+--neutral-700: #2D2D30;
+--neutral-600: #90969C;
+--neutral-300: #C0C0C1;
+
+}
