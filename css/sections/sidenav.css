@@ -1,0 +1,104 @@
+header {
+  height: fill;
+  width: fit-content;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 16px;
+  bottom: 20px;
+  background-color: #161619;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2D2D30;
+  padding: 32px 24px;
+}
+
+.sidenav-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.sidenav-profile-picture {
+  height: 64px;
+  width: 64px;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ECECEC;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.sidenav-title-text h1 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sidenav-title-text p {
+  color: #90969C;
+  font-size: 16px
+}
+
+ul {
+  list-style: none;
+}
+
+.sidenav-1 {
+  display: block;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #2D2D30;
+}
+
+.sidenav-2 {
+  padding-top: 32px;
+}
+
+li:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ECECEC;
+  display: flex;
+  align-items: center;
+  padding: 12px 8px 12px 12px;
+}
+
+header a:hover {
+  color: #ECECEC;
+  background-color: #2D2D33;
+  border-radius: 12px;
+}
+
+li a img {
+  height: 20px;
+  width: 20px;
+}
+
+li a .right-icon {
+  margin-left: auto; /* Spinge l'icona verso destra */
+}
+
+.btn-active {
+  background-color: #ECECEC;
+  color: #111114;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.btn-active:hover {
+  background-color: #C0C0C1;
+  color: #111114;
+  border-radius: 12px;
+  font-weight: 500;
+}
