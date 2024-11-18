@@ -1,13 +1,13 @@
 @import url("body/body.css");
 
-@import url("elements/buttons.css");
-@import url("elements/links.css");
-@import url("elements/typescale.css");
-
 @import url("sections/sidenav.css");
+@import url("sections/index.css");
 @import url("sections/footer.css");
 @import url("sections/contact.css");
 
+@import url("elements/buttons.css");
+@import url("elements/links.css");
+@import url("elements/typescale.css");
 
 :root {
 
