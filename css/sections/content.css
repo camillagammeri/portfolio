@@ -1,0 +1,41 @@
+.content {
+  margin-left: 314px;
+  padding: 48px 200px 80px 200px; /* 1440+ */
+}
+
+/* BREAKPOINTS */
+
+/* 1160-1399 */
+@media screen and (max-width: 1399px) {       
+
+  .content {
+    padding: 48px 112px 80px 112px;
+  }
+
+}
+
+/* 1100-1199 */
+@media screen and (max-width: 1199px) {         
+
+  .content {
+    padding: 48px 80px 80px 80px;
+  }
+
+}
+
+/* 850-1099 */
+@media screen and (max-width: 1099px) {
+
+  .content {
+    padding: 48px 40px 80px 40px;
+  }
+}
+
+/* 0-849 */
+@media screen and (max-width: 849px) {
+
+  .content {
+    margin-left: 0px;
+    padding: 200px 16px 80px 16px;
+  }
+}
