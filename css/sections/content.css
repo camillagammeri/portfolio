@@ -1,6 +1,8 @@
+/* THIS IS THE BIG PARENT CONTAINER OF ALL THE CONTENT. EVERYTHING BUT THE NAVBAR */
+
 .content {
   margin-left: 314px;
-  padding: 48px 200px 80px 200px; /* 1440+ */
+  padding: 48px 160px 20px 160px; /* 1440+ */
 }
 
 /* BREAKPOINTS */

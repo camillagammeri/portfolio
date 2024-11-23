@@ -1,4 +1,4 @@
-@import url("body/body.css");
+@import url("global.css");
 
 @import url("sections/navbar.css");
 @import url("sections/content.css");
@@ -18,7 +18,9 @@
 --neutral-900: #111114;
 --neutral-800: #161619;
 --neutral-700: #2D2D30;
---neutral-600: #90969C;
+--neutral-600: #4A4A4C;
+--neutral-400: #90969C;
 --neutral-300: #C0C0C1;
 
 }
+

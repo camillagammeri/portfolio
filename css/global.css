@@ -1,3 +1,5 @@
+/* THESE ARE GLOBAL STYLES FOR THE WHOLE WEBSITE */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@ html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   width: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -17,6 +20,11 @@ body {
   position: relative;
 }
 
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
@@ -24,16 +32,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--neutral-200);
-  box-shadow: inset 0 0 5px var(--neutral-500);
+  background: var(--neutral-800);
+  box-shadow: inset 0 0 5px var(--neutral-700);
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-500);
+  background: var(--neutral-700);
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-600);
+  background: var(--neutral-600);
 }
