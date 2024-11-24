@@ -22,6 +22,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 32px;
+  color: var(--neutral-000);
 }
 
 .navbar-title-picture {
@@ -39,7 +40,7 @@
 }
 
 .navbar-title-text p {
-  color: var(--neutral-400);
+  color: var(--neutral-300);
   font-size: 16px
 }
 

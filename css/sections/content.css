@@ -11,7 +11,7 @@
 @media screen and (max-width: 1399px) {       
 
   .content {
-    padding: 48px 112px 80px 112px;
+    padding: 48px 112px 20px 112px;
   }
 
 }
@@ -20,7 +20,7 @@
 @media screen and (max-width: 1199px) {         
 
   .content {
-    padding: 48px 80px 80px 80px;
+    padding: 48px 80px 20px 80px;
   }
 
 }
@@ -29,7 +29,7 @@
 @media screen and (max-width: 1099px) {
 
   .content {
-    padding: 48px 40px 80px 40px;
+    padding: 48px 40px 20px 40px;
   }
 }
 
@@ -38,6 +38,6 @@
 
   .content {
     margin-left: 0px;
-    padding: 200px 16px 80px 16px;
+    padding: 200px 16px 20px 16px;
   }
 }
