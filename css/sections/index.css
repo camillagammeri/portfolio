@@ -1,26 +1,30 @@
 /* THIS IS ABOUT.HTML */
 
-.content h1 {
+.content-index h1 {
   font-size: 48px;
   line-height: 140%;
   font-weight: 600;
-  color: var(--neutral-400);
-  margin-bottom: 48px;
 }
 
-.content-index-1 p{
-  margin-bottom: 24px;
-}
-
-.content-music {
-  display: flex;
-  flex-direction: column;
-  margin-top: 160px;
-  margin-bottom: 120px;
-}
-
-.content-music p {
+.content-index h1, .content-index p  {
   margin-bottom: 32px;
+}
+
+.guidingtext {
+  font-family: 'Roboto Mono', monospace;
+  color: var(--neutral-400);
+}
+
+.quote {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.keyword {
+  padding: 1px 4px;
+  border-radius: 8px;
+  font-weight: 400;
 }
 
 .spotify {
@@ -28,4 +32,5 @@
   border-radius: 24px;
   padding: 24px;
   background-color: var(--neutral-800);
+  margin-bottom: 48px;
 }

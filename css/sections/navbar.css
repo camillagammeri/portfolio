@@ -22,7 +22,6 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 32px;
-  color: var(--neutral-000);
 }
 
 .navbar-title-picture {
@@ -34,14 +33,17 @@
 }
 
 .navbar-title-text h1 {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: auto;
 }
 
 .navbar-title-text p {
-  color: var(--neutral-300);
-  font-size: 16px
+  color: var(--neutral-400);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
 }
 
 ul {
