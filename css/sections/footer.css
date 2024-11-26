@@ -9,6 +9,10 @@
   border-top: 1px solid var(--neutral-700);
 }
 
+.footer p {
+  margin-bottom: 0px;
+}
+
 .footer span {
   display: flex;
   flex-direction: row;

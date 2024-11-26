@@ -3,6 +3,15 @@
 .content {
   margin-left: 309px;
   padding: 48px 160px 20px 160px; /* 1440+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-index,
+.content-work,
+.content-resume {
+  max-width: 1150px;
 }
 
 /* BREAKPOINTS */
