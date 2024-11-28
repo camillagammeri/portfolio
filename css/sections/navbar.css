@@ -112,20 +112,20 @@ ul {
 /* BREAKPOINTS */
 
 /* 0-849 */
+
 @media screen and (max-width: 849px) {
 
   .navbar {
-    width: fill;
+    width: calc(100% - 32px);
     overflow-x: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: fit-content;
-    bottom: 0;
-    left: 16px; 
+    height: fit-content; 
     padding: 16px;
     border-radius: 32px;
+    transform: translateY(calc(95vh - 100%)); /* Sposta la navbar verso il fondo */
   }  
   
   .navbar-title {
@@ -211,4 +211,18 @@ ul {
   .navbar-link-2 a img  {
     margin-right: 0px;
   }
+}
+
+/* 0-849 */
+@media screen and (max-width: 449px) {
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar-title-picture,
+  .navbar-link-2 {
+    display: none;
+  }  
+  
 }
