@@ -123,9 +123,9 @@ ul {
     width: auto;
     padding: 16px;
     border-radius: 32px;
-    transform: translateY(calc(95vh - 100%));
     left: 50%;
     transform: translatex(-50%);
+    top: 80%;
   }  
   
   .navbar-title {
