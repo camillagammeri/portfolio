@@ -195,6 +195,13 @@ ul {
     padding: 6px 8px;
   }
 
+  .navbar-link-1 .btn-active {
+    border-radius: 12px;
+    padding: 6px 8px;
+    background-color: var(--neutral-700);
+    color: var(--neutral-000);
+  }
+
   .navbar-link-2 a {
     padding: 0px;
   }
