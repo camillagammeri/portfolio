@@ -32,6 +32,16 @@ p {
   font-weight: 300;
 }
 
+/* BREAKPOINTS */
+
+@media screen and (max-width: 450px) {
+
+  p {
+    font-size: 18px;
+  }
+
+}
+
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {

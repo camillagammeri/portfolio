@@ -92,3 +92,21 @@
   background-color: var(--neutral-800);
   margin-bottom: 48px;
 }
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 450px) {
+
+  .content-index h1 {
+    font-size: 44px;
+  }
+
+  .quote {
+    font-size: 22px;
+  }
+
+  .spotify {
+    padding: 16px;
+  }
+
+}
