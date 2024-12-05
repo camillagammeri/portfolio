@@ -114,7 +114,6 @@ ul {
 @media screen and (max-width: 849px) {
 
   .navbar {
-    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
