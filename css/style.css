@@ -14,14 +14,15 @@
 
 /* COLOR PALETTE */
 
---neutral-900: #111114;
---neutral-800: #161619;
---neutral-700: #2D2D30;
---neutral-600: #4A4A4C;
-
---neutral-400: #90969C;
---neutral-300: #C0C0C1;
-
+--neutral-700: #0D0D0F;
+--neutral-600: #111114;
+--neutral-500: #161619;
+--neutral-400: #2D2D30;
+--neutral-300: #3E3E40;
+--neutral-200: #78787A;
+--neutral-100: #9F9FA1;
+--neutral-050: #B5B5B6;
+--neutral-025: #D2D2D3;
 --neutral-000: #E8E8E8;
 
 }

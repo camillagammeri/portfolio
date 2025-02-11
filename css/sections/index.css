@@ -10,22 +10,24 @@
   margin-bottom: 32px;
 }
 
+.content-index p  {
+  margin-bottom: 32px;
+  color: var(--neutral-100);
+  line-height: 170%;
+}
+
 .guidingtext {
   font-family: 'Roboto Mono', monospace;
-  color: var(--neutral-400);
 }
 
 .quote {
   font-size: 32px;
-  font-style: italic;
   font-weight: 300;
+  color: var(--neutral-000) !important; 
 }
 
 .keyword {
-  padding: 1px 4px;
-  border-radius: 6px;
-  font-weight: 400;
-  background-color: var(--neutral-700);
+  color: var(--neutral-000);
 }
 
 .timeline {
