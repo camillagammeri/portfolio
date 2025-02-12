@@ -57,7 +57,7 @@ footer img {
 
 /* BREAKPOINTS */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
 
   footer {
     display: flex;
@@ -97,8 +97,8 @@ footer img {
     margin-right: 8px;
   }
 
-  footer p:last-of-type {
-    font-size: 12px;
+  footer p {
+    text-align: center;
   }
 
 }
