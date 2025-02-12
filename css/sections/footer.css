@@ -38,6 +38,7 @@ footer span a {
   flex-direction: row;
   justify-content: center;
   color: var(--neutral-200);
+  text-decoration: underline;
 }
 
 footer a:hover {
@@ -76,10 +77,6 @@ footer img {
   footer span p,
   footer span a {
     font-size: 16px;
-  }
-
-  footer span a {
-    text-decoration: underline;
   }
 
   footer span p:first-of-type {
