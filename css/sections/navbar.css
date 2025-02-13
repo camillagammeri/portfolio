@@ -140,6 +140,10 @@ ul {
     top: 85%;
   }
 
+  .navbar a {
+    padding: 6px 8px;
+  }
+
   /*.navbar-title {
     margin-bottom: 0px;
   }*/
@@ -193,26 +197,15 @@ ul {
     margin-right: 2px !important;
   }
 
-  .navbar a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--neutral-025);
-    padding: 6px 8px;
+  .navbar a:hover {
+    border-radius: 8px;
   }
 
   .navbar-link-1 .btn-active {
-    border-radius: 12px;
-    padding: 6px 8px;
-    background-color: var(--neutral-400);
-    color: var(--neutral-000);
+    border-radius: 8px;
   }
-}
 
-@media screen and (max-width: 450px) {
-
-  .navbar {
-    border-radius: 24px;
+  .navbar-link-1 .btn-active:hover {
+    border-radius: 8px;
   }
-  
 }
