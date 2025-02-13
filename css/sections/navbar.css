@@ -90,6 +90,10 @@ ul {
   padding: 12px 8px 12px 12px;
 }
 
+.navbar-link-3 li {
+  margin-bottom: 0px;
+}
+
 .navbar-icon {
   margin-right: 12px;
   height: 20px;
@@ -123,7 +127,7 @@ ul {
 @media screen and (max-width: 849px) {
 
   .navbar {
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -134,45 +138,59 @@ ul {
     left: 50%;
     transform: translatex(-50%);
     top: 85%;
-  }  
-  
-  .navbar-title {
+  }
+
+  /*.navbar-title {
+    margin-bottom: 0px;
+  }*/
+
+  .navbar-title-picture {
+    display: none;
+    /*height: 48px;
+    width: 48px;
+    margin-right: 24px;*/
+  }
+
+  .navbar-title-text h1,
+  .navbar-title-text p {
     display: none;
   }
 
-  .navbar-link-1 {
+  .navbar-link-1,
+  .navbar-link-2,
+  .navbar-link-3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 100%;
-  }
-
-  .navbar-link-1 {
-    margin-right: 0px;
     justify-content: center;
     padding-bottom: 0px;
     border-bottom: none;
-    margin-right: 0px;
+    padding-top: 0px;
+    border-top: none;
   }
 
-  .navbar-link-2 {
+  .navbar-link-1 .navbar-icon,
+  .navbar-link-2 .navbar-icon,
+  .navbar-link-3 .navbar-icon {
     display: none;
   }
 
-  .navbar-link-3 {
-    display: none;
+  .navbar-link-2 .navbar-right-icon,
+  .navbar-link-3 .navbar-right-icon {
+    margin-left: 4px;
+    height: 18px;
+    width: 18px;
   }
 
-  .navbar-link-1 li:not(:last-of-type) {
-    margin-right: 16px !important;
-  }
-
-  .navbar-link-1 li {
+  .navbar-link-1 li,
+  .navbar-link-2 li,
+  .navbar-link-3 li {
     margin-bottom: 0px !important;
   }
 
-  .navbar-link-1 .navbar-icon {
-    display: none;
+  .navbar-link-1 li,
+  .navbar-link-2 li{
+    margin-right: 2px !important;
   }
 
   .navbar a {
